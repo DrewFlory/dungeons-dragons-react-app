@@ -1,0 +1,13 @@
+.card {
+    margin-bottom: 20px;
+    width: 400px;
+    padding: 8px;
+    box-shadow: gray 2px 2px 2px;
+}
+
+.card-input {
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
