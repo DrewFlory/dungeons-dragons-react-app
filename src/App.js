@@ -42,7 +42,7 @@ class App extends Component {
     const {value} = e.target;
     const elements = this.state.elements;
     const index = this.state.element.findIndex(el => el.id === id);
-    elements[index].initiative= Number[value];
+    elements[index].initiative = Number[value];
     this.setState({ elements });
   }
 
@@ -54,7 +54,7 @@ class App extends Component {
         <Card 
         key = {element.key}
         name = {element.name}
-        initiative = {elements.initiative}
+        initiative = {element.initiative}
         id = {element.id}
         onNameChange = {this.updateName}
         onInitiativeChange = {this.updateInitiative}
